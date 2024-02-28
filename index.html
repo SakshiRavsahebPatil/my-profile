@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      *{ 
+        border: 1px solid rgb(252, 201, 168);
+       } 
+      #home{
+        /* border-style: solid; 
+        border-width: 5px;
+         border-color: rgb(142, 58, 58); */
+         border: 5px solid rgb(127, 104, 104);
+      }
+      #summary{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+        text-decoration:underline;
+        text-transform: uppercase;
+        padding: 30px;
+      }
      .svg{ 
       color:rgb(57, 31, 207);
       } 
@@ -23,7 +40,19 @@
       }
       h2{
          color: darkgreen;
-         font-weight: bold;
+         font-weight: bolder;
+      }
+      #experience{
+        font-weight: bolder;
+      }
+      .span{
+        color: cadetblue;
+      }
+      #agile{
+        font-style: italic;
+        font-weight: bolder;
+        background-color: rgb(104, 147, 177);
+        text-decoration: underline;
       }
     </style>
   </head>
@@ -66,22 +95,22 @@
 
     <!-- Main section -->
     <section>
-
-          <!-- home section-->
+        <!-- home section-->
       <section id="home">
-        <h2>Professional Summery</h2>
+        <h2 id="summary">Professional Summery</h2>
           <ul>
-            <li>Having 1 years of experience in developing Single page Web Applications using Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
+            <li id="experience">Having 1 years of experience in developing Single page Web Applications using <span class="span">Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</span></li>
             <li>Experience on working with version control system - GIT and GitHub</li>
             <li>Experience working with JIRA for user stories and bug tracking</li>
             <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
             <li style="color: cornflowerblue;">Working exposure on ID's like VS Code and Notepad++</li>
-            <li style="color: darkblue;"> Good working experience under Agile methodologies environment</li>
+            <li>Good working experience under <span id="agile">Agile methodologies </span>environment</li>
             <li style="color: brown;">Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
             <li style="color: tomato;"> Knowledge of NodeJS</li>
             <li>Ability to work with people at all levels in the program</li>
           </ul>
       </section>
+    </section>
       <hr>
 
       <!-- technology stack section -->
