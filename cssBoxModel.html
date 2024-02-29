@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <!-- CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+    header{
+      padding: 20px;
+      background-color: rgb(211, 251, 210);
+    }
+    #resume{
+      color: rgb(255, 0, 38);
+      font-weight: bolder;
+      margin-left: 10px;
+    }
+    .header-info{
+        color: indigo;
+      margin-right: 40px;
+      margin-left: 10px;
+    }
+    h2{
+       background-color: cadetblue;
+      font-style: italic;
+    }
+    #ABC{
+      padding:15px;
+      background-color: rgb(241, 203, 241);
+    }
+    #abc{
+      padding:5px 10px 15px 30px;
+      background-color:rgb(214, 245, 167);
+    }
+    thead{
+        background-color: rgb(254, 249, 156);
+    }
+    tbody{
+        background-color: rgb(247, 200, 170);
+    }
+    #table-head{
+        padding: 10px 30px;
+    }
+    #table-row{
+        padding: 10px 30px; 
+    }
+    .Percentage{
+        background-color: brown;
+    } 
+ </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <i class="fa fa-user fa-lg" aria-hidden="true"></i>
+        <span class="header-info"> Sakshi Patil</span> 
+        <i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>  
+        <span class="header-info">8237 3156 82  </span>  
+        <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+        <span class="header-info">sakshipatil9868@gmail.com </span> 
+        <i class="fa fa-download fa-lg" aria-hidden="true"></i>
+        <a href="assets/resume.pdf" download id="resume"><span id="resume-text">RESUME</span>  </a>  
+    </header>
+
+    <!-- home section-->
+    <section id="home">
+       <h2>Professional Summery</h2>
+            <ul>
+             <li id="ABC">Having 1 years of experience in developing Single page Web Applications using <span class="span">Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</span></li>
+             <li id="abc">Experience on working with version control system - GIT and GitHub</li>
+             <li id="ABC">Experience working with JIRA for user stories and bug tracking</li>
+             <li id="abc">Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+             <li id="ABC" style="color: cornflowerblue;">Working exposure on ID's like VS Code and Notepad++</li>
+             <li id="abc">Good working experience under <span id="agile">Agile methodologies </span>environment</li>
+             <li id="ABC" style="color: brown;">Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
+             <li id="abc" style="color: tomato;"> Knowledge of NodeJS</li>
+             <li id="ABC">Ability to work with people at all levels in the program</li>
+            </ul>
+    </section>
+
+    <!--education section  -->
+    <section id="education">
+        <h2>Education Details</h2>
+        <table border="1">
+          <thead >
+                <th id="table-head">Qaulification</th>
+                <th id="table-head">School/Collage</th>
+                <th id="table-head">Board/University</th>
+                <th id="table-head">Year</th>
+                <th id="table-head">Percentage</th>
+          </thead>
+          <tbody>
+                <tr>
+                  <td id="table-row">BE</td>
+                  <td id="table-row">CSMIT,Shedung,Panvel</td>
+                  <td id="table-row">Mumbai</td>
+                  <td id="table-row">2019</td>
+                  <td id="table-row">1.27%</td>
+                </tr>
+  
+                <tr>
+                  <td id="table-row">Diploma</td>
+                  <td id="table-row">VJTI,Matunge,Mumbai</td>
+                  <td id="table-row">Autonoumous</td>
+                  <td id="table-row">2016</td>
+                  <td id="table-row">72.29%</td>
+                </tr>
+  
+                <tr>
+                  <td id="table-row">SSC</td>
+                  <td id="table-row">DVS High School,KoparKhairane,Navi Mumbai</td>
+                  <td id="table-row">State Board</td>
+                  <td id="table-row">2013</td>
+                  <td id="table-row" class="Percentage">90.73%</td>
+                </tr>
+            </tbody>
+        </table>
+  
+        </section>
+        <hr>
+  
+</body>
+</html>
