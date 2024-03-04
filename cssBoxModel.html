@@ -15,12 +15,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
- <style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+ 
+ <!-- <style>
     header{
       padding: 20px;
       background-color: rgb(211, 251, 210);
       font-family: "Pacifico", cursive;
-      font-size: 30px;
+      font-size:20px;
     }
     #resume{
       color: rgb(255, 0, 38);
@@ -39,10 +42,7 @@
       font-family: "Madimi One", sans-serif;
     }
     #nav{
-      padding:10px;
-      background-color:rgb(243, 166, 166);
-    
-    }
+      padding:10px; }
     h2{
        background-color: cadetblue;
       font-style: italic;
@@ -51,12 +51,6 @@
       padding:15px;
       background-color: rgb(241, 203, 241);
       font-family: "Madimi One", sans-serif;
-    }
-    #abc{
-      padding:5px 10px 15px 30px;
-      background-color:rgb(214, 245, 167);
-      font-family: "Pacifico", cursive;
-      font-size: 20px;
     }
     thead{
         background-color: rgb(254, 249, 156);
@@ -100,22 +94,31 @@
       background-color: rgb(194, 248, 248);
       font-family:"Madimi One", sans-serif;
     }
-    #team2{
-      font-size:20px;
-      background-color: rgb(246, 246, 107);
-      font-family: "Pacifico", cursive;
-    }
     .copy{
       font-style: oblique ;
       background-color: palegreen;
     }
     #footer{
       padding-right:50px;
-      background-color: rgb(248, 185, 248);
     }
- </style>
+    #Summerylist li{
+      list-style-type: circle;
+    }
+    #Summerylist li::marker{
+      content: "✍";
+    }
+    #roles{
+      list-style-type: lower-alpha;
+    }
+    #roles li{
+      padding-top: 1rem;
+    }
+    #projectDesc::selection{
+      background-color: rgb(251, 155, 120);
+    }
+ </style> -->
 </head>
-<body style="background-color:rgb(246, 250, 233)">
+<body>
     <!-- Header Section -->
     <header>
         <i class="fa fa-user fa-lg" aria-hidden="true"></i>
@@ -144,15 +147,15 @@
     <!-- home section-->
     <section id="home">
        <h2>Professional Summery</h2>
-            <ul>
-             <li id="ABC">Having 1 years of experience in developing Single page Web Applications using <span class="span">Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</span></li>
-             <li id="abc">Experience on working with version control system - GIT and GitHub</li>
+            <ul id="Summerylist">
+             <li id="ABC">Having 1 years of experience in developing Single page Web Applications using Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
+             <li >Experience on working with version control system - GIT and GitHub</li>
              <li id="ABC">Experience working with JIRA for user stories and bug tracking</li>
-             <li id="abc">Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+             <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
              <li id="ABC" style="color: cornflowerblue;">Working exposure on ID's like VS Code and Notepad++</li>
-             <li id="abc">Good working experience under <span id="agile">Agile methodologies </span>environment</li>
+             <li>Good working experience under <span id="agile">Agile methodologies </span>environment</li>
              <li id="ABC" style="color: brown;">Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
-             <li id="abc" style="color: tomato;"> Knowledge of NodeJS</li>
+             <li>Knowledge of NodeJS</li>
              <li id="ABC">Ability to work with people at all levels in the program</li>
             </ul>
     </section>
@@ -202,18 +205,20 @@
     <section id="project">
       <h2>Projects Details</h2>
       <p id="team"><b>Name:</b><u>Sakshi Patil</u></p>
-      <p id="team2"><b><u>Environment:</u></b> Angular 8, TypeScript, JavaScript (ES6), HTML5, CSS, Bootstrap, GitHub, Desktop GitHub, Agile and JIRA, IDE - VS Code</p>
+      <p><b><u>Environment:</u></b> Angular 8, TypeScript, JavaScript (ES6), HTML5, CSS, Bootstrap, GitHub, Desktop GitHub, Agile and JIRA, IDE - VS Code</p>
       <p id="team"><b>Team Size:</b>06<b id="Duration">Duration</b>2021-1<sup>st</sup>-<i>juy</i> till <u>present</u></p>
-      <p id="team2"><b>Project Description:</b> This project is mainly used for student management in colleges, where It help to manage student record like student registration, student update information and to see all his or her academic activities like score card, attendance.</p>
+      <p id="projectDesc"><b>Project Description:</b> This project is mainly used for student management in colleges, where It help to manage student record like student registration, student update information and to see all his or her academic activities like score card, attendance.</p>
     
       <h2>Roles and Responsibilities:</h2>
-      <p id="roles">
-         Designed and implemented the user interface using HTML 5 and CSS<br>
-         Work closely with backend developers for code integration Identifying and troubleshooting issues with front end code<br>
-         Worked on GIT as a version control<br>
-         Used JIRA for bug tracking<br>
-         Implemented project using Agile SCRUM methodology, Involved in daily stand up meetings, sprint showcase and sprint retrospective <br>
-         Involved in fixing technical issues
+      <p >
+      <ol id="roles">
+         <li>Designed and implemented the user interface using HTML 5 and CSS</li>
+         <li>Work closely with backend developers for code integration Identifying and troubleshooting issues with front end code</li>
+         <li>Worked on GIT as a version control</li>
+         <li>Used JIRA for bug tracking</li>
+         <li>Implemented project using Agile SCRUM methodology, Involved in daily stand up meetings, sprint showcase and sprint retrospective</li>
+         <li>Involved in fixing technical issues</li>
+      </ol>
       </p>
     </section>
     <hr>
