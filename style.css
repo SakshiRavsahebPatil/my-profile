@@ -1,0 +1,92 @@
+/*  Header Section  */
+header {
+  padding: 10px;
+  background-color: rgb(13, 13, 13);
+  font-size:20px;
+  position: fixed;
+  top:0px
+}
+.header-info{
+  color: white;
+  margin-right: 40px;
+}
+#logo{
+  color: white;
+}
+#resume{
+  color: yellow;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+/*  Navigation section */
+.nav {
+  color: blue;
+  padding-left: 150px;
+  margin: 10px;
+  font-style: italic;
+  /* font-family: "Madimi One", sans-serif; */
+  position: fixed;
+  top:34px;
+  background-color: rgb(249, 186, 218);
+}
+#nav{
+  padding:20px; 
+  font-size:20px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+/* Main section */
+#home ul li{
+  padding: 5px;
+  margin-left: 200px;
+  font-weight: bolder;
+}
+#Summerylist li::marker{
+  content: "✍";
+}
+#home h2{
+  margin-top:60px;
+  }
+/* all h2 tag apply property */
+h2{
+  background-color: rgb(211, 251, 210);
+  margin-left: 200px;
+}
+/*  technology stack section (OR) education section  */
+table, tr,th,td{
+  border: 1px solid rgb(235, 134, 2);
+  border-collapse: collapse;
+  /* font-family: "Madimi One", sans-serif; */
+  margin-left: 200px; 
+}
+/* project section */
+#project p{
+margin-left: 200px;
+}
+#roles li{
+  margin-left: 200px;
+  padding-bottom: 3px;
+}
+#Duration{
+  margin-left: 30px;
+}
+/* Footer section */
+.footer{
+  margin-left: 200px;
+}
+/* Copy write section */
+.copy{
+  margin-left: 200px;
+  font-style: oblique ;
+}
+/* position  */
+#position{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  color: white;
+  background-color: rgb(89, 248, 89);
+  border:4px solid rgb(11, 11, 11);
+  border-radius: 25px;
+  padding:5px;
+}
