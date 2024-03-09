@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #mainsection{
+        width: 400px;
+        height: 500px;
+        border: 1px solid black;
+        padding: 15px;
+        margin: auto;
+      }  
+      #section{
+        width: 350px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: rgb(50, 111, 215);
+        padding: 15px;
+        color: white;
+      }
+      #button{
+        margin-left: 300px;
+      } 
+    </style>
+</head>
+<body>
+    <!-- main section -->
+    <section id="mainsection">
+        <h2>Subscriber</h2>
+        <hr>
+        <section id="section">
+        <p>We're sorry to see you go, but hey, no hard <br>feelings, hopefully we will see you back <br>one day.<br>
+           Please fill in your email address in order to<br> unsubscribe from the list.<br>
+            You will receive an email to confirm your<br> unsubscription, just to make sure this is<br> not an accident or somebody else tries to <br>unsubscribe you.</p>
+        </section> <br>
+            <label for="" >Email <span style="color: red;">*</span></label>
+            <br>
+            <input type="email" required><br><br>
+
+            <label for="" >Unsubscribe reason</label>
+            <br>
+            <input type="text" placeholder="Unsubscribe reason"><br><br>
+       
+             <hr>
+             <br>
+            <button type="submit" id="button">Unsubscribe</button>
+    </section>
+</body>
+</html>
